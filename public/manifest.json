@@ -1,0 +1,32 @@
+{
+  "name": "VJ Salon - Men's Salon & Grooming",
+  "short_name": "VJ Salon",
+  "description": "Book appointments for haircuts, beard styling, scrubs and hair spa at VJ Salon, Dhamdha.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a0c",
+  "theme_color": "#0a0a0c",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["lifestyle", "beauty", "shopping"]
+}

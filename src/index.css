@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0a0a0c;
+    color: #f3f4f6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: 'Cinzel', Georgia, serif;
+    letter-spacing: 0.04em;
+  }
+}
+
+/* Custom gold gradients & effects */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF099 0%, #F5C542 35%, #C69214 70%, #996E08 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  border: 1px solid rgba(198, 146, 20, 0.3);
+  box-shadow: 0 0 15px rgba(198, 146, 20, 0.08);
+}
+
+.gold-button {
+  background: linear-gradient(135deg, #F3CC51 0%, #D4A017 50%, #B8860B 100%);
+  color: #0a0a0c;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+
+.gold-button:hover {
+  background: linear-gradient(135deg, #FFE082 0%, #E5B83B 50%, #C69214 100%);
+  box-shadow: 0 4px 20px rgba(212, 160, 23, 0.35);
+  transform: translateY(-1px);
+}
+
+.gold-button:active {
+  transform: translateY(0);
+}
+
+/* Glass & Card styles */
+.card-dark {
+  background: rgba(18, 18, 22, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+}
+
+.card-dark:hover {
+  border-color: rgba(212, 160, 23, 0.25);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0d11;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a32;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c69214;
+}
+
+.safe-area-bottom {
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 8px);
+}
+
+/* Optimize touch responsiveness on mobile devices */
+button, a, input, select, textarea {
+  touch-action: manipulation;
+}

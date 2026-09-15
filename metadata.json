@@ -1,0 +1,6 @@
+{
+  "name": "VJ Salon",
+  "description": "Professional men's salon appointment booking application with live slot scheduling, WhatsApp booking confirmation, services management, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

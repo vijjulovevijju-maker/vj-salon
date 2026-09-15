@@ -1,0 +1,175 @@
+{
+  "settings": {
+    "name": "VJ Salon",
+    "tagline": "Men's Luxury Barber & Grooming Lounge",
+    "address": "Near Old Govt. Hospital, Dhamdha, Chhattisgarh, India",
+    "phone": "7000211850",
+    "additionalPhone": "7869985780",
+    "whatsapp": "7000211850",
+    "openingTime": "10:00",
+    "closingTime": "21:00",
+    "slotDuration": 30,
+    "googleMapsUrl": "https://maps.google.com/?q=Near+Old+Govt.+Hospital+Dhamdha+Chhattisgarh+India",
+    "logoUrl": "/icon.svg",
+    "salonImages": [
+      "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517832606589-7629c3395909?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  "services": [
+    {
+      "id": "srv-1",
+      "name": "Haircut + Beard",
+      "price": 100,
+      "duration": 45,
+      "active": true,
+      "category": "Combo Combos",
+      "description": "Complete grooming package with custom stylish haircut and sharp beard trimming & shaping.",
+      "popular": true
+    },
+    {
+      "id": "srv-2",
+      "name": "Haircut",
+      "price": 60,
+      "duration": 30,
+      "active": true,
+      "category": "Hair & Styling",
+      "description": "Precision haircut tailored to face shape with side fade, scissor cut and hair styling.",
+      "popular": true
+    },
+    {
+      "id": "srv-3",
+      "name": "Beard Set",
+      "price": 50,
+      "duration": 20,
+      "active": true,
+      "category": "Beard & Shave",
+      "description": "Expert beard line shaping, scissor trim, edge detailing and beard oil finish.",
+      "popular": true
+    },
+    {
+      "id": "srv-4",
+      "name": "Clean Shave",
+      "price": 40,
+      "duration": 20,
+      "active": true,
+      "category": "Beard & Shave",
+      "description": "Traditional close shave with hot towel prep, rich lather and cooling aftershave lotion."
+    },
+    {
+      "id": "srv-5",
+      "name": "Scrub",
+      "price": 50,
+      "duration": 20,
+      "active": true,
+      "category": "Face & Skin",
+      "description": "Deep pore exfoliating facial scrub to clear blackheads, dust and dead skin cells."
+    },
+    {
+      "id": "srv-6",
+      "name": "Scrub Machine",
+      "price": 100,
+      "duration": 30,
+      "active": true,
+      "category": "Face & Skin",
+      "description": "High-frequency rotary scrub machine treatment for intense skin renewal and glowing texture."
+    },
+    {
+      "id": "srv-7",
+      "name": "Massage",
+      "price": 100,
+      "duration": 30,
+      "active": true,
+      "category": "Relaxation & Spa",
+      "description": "Stress-relieving head, neck and shoulder acupressure massage with Ayurvedic oils.",
+      "popular": true
+    },
+    {
+      "id": "srv-8",
+      "name": "Haircut + D-Tan",
+      "price": 250,
+      "duration": 60,
+      "active": true,
+      "category": "Combo Combos",
+      "description": "Signature haircut coupled with professional de-tanning pack for sun-damaged face & neck.",
+      "popular": true
+    },
+    {
+      "id": "srv-9",
+      "name": "Cleanup",
+      "price": 300,
+      "duration": 45,
+      "active": true,
+      "category": "Face & Skin",
+      "description": "Complete salon facial cleanup with steam, vacuum extraction, massage and revitalizing pack."
+    },
+    {
+      "id": "srv-10",
+      "name": "Peeling",
+      "price": 100,
+      "duration": 30,
+      "active": true,
+      "category": "Face & Skin",
+      "description": "Gentle fruit-acid peeling mask to peel away dark spots and restore natural radiance."
+    },
+    {
+      "id": "srv-11",
+      "name": "Hair Spa",
+      "price": 499,
+      "duration": 60,
+      "active": true,
+      "category": "Relaxation & Spa",
+      "description": "Deep conditioning salon hair spa with nourishing keratin cream bath, steam and scalp therapy.",
+      "popular": true
+    },
+    {
+      "id": "srv-12",
+      "name": "D-Tan",
+      "price": 199,
+      "duration": 30,
+      "active": true,
+      "category": "Face & Skin",
+      "description": "Pure organic milk & honey d-tan therapy that lightens sun tan and instantly brightens skin."
+    },
+    {
+      "id": "srv-13",
+      "name": "Shiner",
+      "price": 199,
+      "duration": 30,
+      "active": true,
+      "category": "Face & Skin",
+      "description": "Diamond glow skin shiner serum application giving long-lasting party glow and smooth finish."
+    }
+  ],
+  "bookings": [
+    {
+      "id": "VJ-260914-D1C0",
+      "customerName": "Aman Verma",
+      "mobileNumber": "9876543210",
+      "selectedServices": [
+        {
+          "id": "srv-1",
+          "name": "Haircut + Beard",
+          "price": 100,
+          "duration": 45
+        }
+      ],
+      "totalAmount": 100,
+      "totalDuration": 45,
+      "appointmentDate": "2026-09-15",
+      "appointmentTime": "10:00 AM",
+      "bookingStatus": "Confirmed",
+      "customerMessage": "First test booking",
+      "createdDateTime": "2026-09-14T20:20:03.856Z",
+      "isWalkIn": false
+    }
+  ],
+  "blockedPeriods": [],
+  "admin": {
+    "username": "admin",
+    "salt": "2a802950a44ff3cc94b756101f019046",
+    "passwordHash": "4eaf889eed40a257488e75e53a5a2ff7251e5bc6ad7a7d28cf9c5e64861b741459d9d293570577f93a3a58f8176ef900a9cf54407c871bba41287a5063fa5ebf"
+  }
+}
